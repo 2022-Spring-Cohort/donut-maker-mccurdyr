@@ -1,7 +1,7 @@
 export default class DonutCounter {
   constructor() {
     this.donutCount = 1;
-    this.clickAmount = 1;
+    this.clickAmount = 100;
     this.autoClickPrice = 100;
     this.multiplier = 1;
     this.multiplierPrice = 10;
@@ -24,5 +24,14 @@ export default class DonutCounter {
     );
     this.multiplier = this.multiplier + this.multiplier * 0.2;
     console.log(this.multiplier);
+  }
+
+  reset(){
+    this.donutCount = 1;
+    this.clickAmount = 1;
+    this.autoClickPrice = 100;
+    this.multiplier = 1;
+    this.multiplierPrice = 10;
+    console.log(this.donutCount, this.clickAmount, this.autoClickPrice, this.multiplier, this.multiplierPrice)
   }
 }

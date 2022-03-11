@@ -10,7 +10,7 @@
     padding: 20px;
 }
 
-.autoClicker, .buyMultiplier {
+.autoClicker, .buyMultiplier, .reset {
     background-color: rgba(235, 121, 197, 0.836);
     border-color: transparent;
     border-radius: 5px;
@@ -29,6 +29,11 @@
 .buyMultiplier:hover {
     background-color: rgba(235, 121, 197, 0.493);
 }
+.reset:hover {
+    background-color: rgba(235, 121, 197, 0.493);
+
+}
+
 
 .btnContainer {
     position: relative;
