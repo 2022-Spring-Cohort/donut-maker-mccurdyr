@@ -4,10 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bodyLayout.css" class="stylesheet">
     <title>Donut Clicker</title>
   </head>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    <header>
+      <nav class="navBar">
+        <button type="button" class="collapsible">About Us!</button>
+        <button type="button" class="collapsible2">Inspiration</button>
+        <button type="button" class="collapsible3">Contact Me!</button>
+        <div class="content">
+          <p>Fred the Baker Baking Company</p>
+        </div>
+        <div class="content2">
+          <p>content 2</p>
+        </div>
+        <div class="content3">
+          <p>content 3</p>
+        </div> </nav>
+      </div>
+    </header>
+
+
+    <section class="app">
+      <div class="btnContainer">
+        <button class="makeNewDonutBtn"><img src="./img/cartoon-removebg-preview.png"></button>
+      </div>
+
+      <section class="buttons"></section>
+        <div class="autoBtn">
+          <button class="autoClicker">Auto-Clicker (-100)</button>
+          <button class="buyMultiplier">Multiplier (-10)</button>
+        </div>
+      </section>
+
+      
+
+
+    </section>
+    <footer>
+      <div class="counters">
+        <section class="donutCounter"></section>
+        <section class="autoClickerCounter"></section>
+        <section class="multiplierCounter"></section>
+      </div>
+
+    </footer>
+
+
+
+
+
+    <script src="./js/activity.js" type="module"></script>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
