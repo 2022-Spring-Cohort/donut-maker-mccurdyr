@@ -1,0 +1,77 @@
+
+
+.autoBtn {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: flex-end;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+}
+
+.autoClicker, .buyMultiplier, .reset {
+    background-color: rgba(235, 121, 197, 0.836);
+    border-color: transparent;
+    border-radius: 5px;
+    width: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: xx-large;
+    margin-top: 25px;
+}
+
+.autoClicker:hover {
+    background-color: rgba(235, 121, 197, 0.493);
+}
+.buyMultiplier:hover {
+    background-color: rgba(235, 121, 197, 0.493);
+}
+.reset:hover {
+    background-color: rgba(235, 121, 197, 0.493);
+
+}
+
+
+.btnContainer {
+    position: relative;
+    width: 50%;
+}
+
+.btnContainer img {
+    width: 80%;
+    height: 80%;
+}
+
+.btnContainer .makeNewDonutBtn {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnContainer .makeNewDonutBtn:hover {
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.counters {
+    display: flex;
+    background-color: rgba(235, 121, 197);
+    font-size: 50px;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
